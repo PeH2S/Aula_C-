@@ -13,18 +13,28 @@ namespace AgregacaoVenda
 
         public Venda()
         {
-
+            VetProd = new List<Produto>(); // Inicializando a lista
         }
         public Venda(Vendedor vend, Comprador comp)
         {
             Vend = vend;
             Comp = comp;
-            
-          
+            VetProd = new List<Produto>(); 
+
         }
         public void MostrarAtributos()
         {
-            System.Console.WriteLine($"Vendedor: {Vend} \tComprador: {Comp}");    
+            Console.WriteLine($"Vendedor: {Vend} \tComprador: {Comp}");
+            Console.WriteLine("Produtos na venda:");
+            foreach (var produto in VetProd)
+            {
+                produto.MostrarAtributos();
+            }
+        }
+        public void AdicionarProduto(Produto produto)
+        {
+    
+            VetProd.Add(Produto);           
         }
     }
 }

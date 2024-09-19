@@ -16,7 +16,7 @@ namespace AgregacaoVenda
         }
         public Vendedor(double comissao)
         {
-            Comissao = 2 / 100;
+            Comissao = comissao;
         }
         public void MostrarAtributos()
         {

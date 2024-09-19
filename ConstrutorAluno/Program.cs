@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using ConstrutorAluno;
+
+internal class Program
 {
     private static void Main(string[] args) //static não é necessário instanciar;
     {
@@ -15,8 +17,12 @@
         Até dia 19/09
         */
 
-        
+        Aluno aluno1 = new Aluno("João");
+        aluno1.Mostrar();
 
-
+        Aluno aluno2 = new Aluno("Maria");
+        aluno2.Mostrar();
+        Aluno aluno3 = new Aluno("Maria");
+        aluno3.Mostrar();
     }
 }

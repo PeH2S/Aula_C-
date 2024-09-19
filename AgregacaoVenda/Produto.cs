@@ -22,7 +22,12 @@ namespace AgregacaoVenda
             this.Nome = nome;
             this.Preco = preco;
         }
-
+        public Produto(int codigo, string nome)
+        {
+            Codigo = codigo;
+            Nome = nome;
+            Preco = 0.0; // Valor padrão para o preço
+        }
         //Criar Metodo MostrarAtributos()
         public void MostrarAtributos()
         {

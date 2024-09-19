@@ -5,20 +5,18 @@ Produto p1 = new Produto(1, "Macarrão", 10);
 Produto p2 = new Produto(2, "Molho de tomate", 5);
 Produto p3 = new Produto(3, "Palmito", 15);
 
+// Criando compradores
+Comprador comp1 = new Comprador(10000);
+Comprador comp2 = new Comprador(20000);
+Comprador comp3 = new Comprador(5000);
 
-Comprador comp1 = new Comprador(10.000);
-Comprador comp2 = new Comprador(20.000);
-Comprador comp3 = new Comprador(5.000);
-
-
-
+// Criando uma venda
 Venda v1 = new Venda();
 
-v1.VetProd = new List<Produto>();
+// Adicionando produtos à venda
+v1.AdicionarProduto(p1);
+v1.AdicionarProduto(p2);
+v1.AdicionarProduto(p3);
 
-v1.VetProd.Add(p1);
-v1.VetProd.Add(p2);
-v1.VetProd.Add(p3);
-v1.VetProd.Add(comp1);
-v1.VetProd.Add(comp2);
-v1.VetProd.Add(comp3);
+// Exibindo atributos da venda
+v1.MostrarAtributos();
