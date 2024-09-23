@@ -7,34 +7,37 @@ namespace AgregacaoVenda
 {
     public class Venda
     {
-        public Vendedor Vend { get; set; }
-        public Comprador Comp { get; set; }
-        public List<Produto> VetProd { get; set; }
+        public Vendedor Vendedor { get; set; }
+        public Comprador Comprador { get; set; }
+        public List<Produto> Produtos { get; set; }
 
         public Venda()
         {
-            VetProd = new List<Produto>(); // Inicializando a lista
+            Produtos = new List<Produto>();
         }
-        public Venda(Vendedor vend, Comprador comp)
-        {
-            Vend = vend;
-            Comp = comp;
-            VetProd = new List<Produto>(); 
 
-        }
-        public void MostrarAtributos()
+        public Venda(Vendedor vendedor, Comprador comprador)
         {
-            Console.WriteLine($"Vendedor: {Vend} \tComprador: {Comp}");
-            Console.WriteLine("Produtos na venda:");
-            foreach (var produto in VetProd)
-            {
-                produto.MostrarAtributos();
-            }
+            Vendedor = vendedor;
+            Comprador = comprador;
+            Produtos = new List<Produto>();
         }
+
         public void AdicionarProduto(Produto produto)
         {
-    
-            VetProd.Add(Produto);           
+            if (produto != null)
+            {
+                Produtos.Add(produto);
+                Comprador.SubtrairVerba(produto.Preco);
+            }
+        }
+
+        public void FinalizarVenda()
+        {
+            foreach (var produto in Produtos)
+            {
+                Vendedor.Comissao += produto.Preco * 0.02m;
+            }
         }
     }
 }

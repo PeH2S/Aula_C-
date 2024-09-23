@@ -7,19 +7,47 @@ namespace AgregacaoVenda
 {
     public class Comprador
     {
-        public double Verba { get; set; }
+        private decimal verba;
+
+        public decimal Verba
+        {
+            get { return verba; }
+            set
+            {
+                if (value >= 0)
+                {
+                    verba = value;
+                }
+                else
+                {
+                    verba = 0; // Se a verba for negativa, inicializa como 0
+                }
+            }
+        }
 
         public Comprador()
         {
+            Verba = 0; // Inicializa com verba 0
+        }
 
-        }
-        public Comprador(double verba)
+        public Comprador(decimal verbaInicial)
         {
-            Verba = verba;
+            if (verbaInicial >= 0)
+            {
+                Verba = verbaInicial;
+            }
+            else
+            {
+                Verba = 0; // Se a verba inicial for negativa, inicializa como 0.
+            }
         }
-        public void MostrarAtributos()
+
+        public void SubtrairVerba(decimal valor)
         {
-            System.Console.WriteLine($"Verba: {Verba:c}");
+            if (valor <= Verba)
+            {
+                Verba -= valor;
+            }
         }
     }
 }

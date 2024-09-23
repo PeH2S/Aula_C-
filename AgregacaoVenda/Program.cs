@@ -1,22 +1,28 @@
 ﻿
 using AgregacaoVenda;
 
-Produto p1 = new Produto(1, "Macarrão", 10);
-Produto p2 = new Produto(2, "Molho de tomate", 5);
-Produto p3 = new Produto(3, "Palmito", 15);
+// Criando vendedores e compradores
+Vendedor vendedor1 = new Vendedor("João");
+Comprador comprador1 = new Comprador(5700m);
 
-// Criando compradores
-Comprador comp1 = new Comprador(10000);
-Comprador comp2 = new Comprador(20000);
-Comprador comp3 = new Comprador(5000);
+// Criando produtos
+Produto produto1 = new Produto("HD", 230m);
+Produto produto2 = new Produto("SSD", 500m);
+Produto produto3 = new Produto("Fonte", 500m);
+Produto produto4 = new Produto("Pasta Termica", 120m);
+Produto produto5 = new Produto("Gabinete", 500m);
 
 // Criando uma venda
-Venda v1 = new Venda();
+Venda venda1 = new Venda(vendedor1, comprador1);
+venda1.AdicionarProduto(produto1);
+venda1.AdicionarProduto(produto2);
+venda1.AdicionarProduto(produto3);
+venda1.AdicionarProduto(produto4);
+venda1.AdicionarProduto(produto5);
 
-// Adicionando produtos à venda
-v1.AdicionarProduto(p1);
-v1.AdicionarProduto(p2);
-v1.AdicionarProduto(p3);
+// Finalizando a venda
+venda1.FinalizarVenda();
 
-// Exibindo atributos da venda
-v1.MostrarAtributos();
+// Exibindo resultados
+Console.WriteLine($"Vendedor: {vendedor1.Nome}, Comissão: {vendedor1.Comissao}");
+Console.WriteLine($"Comprador, Verba restante: {comprador1.Verba}");

@@ -7,20 +7,19 @@ namespace AgregacaoVenda
 {
     public class Vendedor
     {
-        public double Comissao { get; set; }
-        
+        public string Nome { get; set; }
+        public decimal Comissao { get; set; }
 
         public Vendedor()
         {
-            
+            Nome = string.Empty; // Inicializa o nome como vazio
+            Comissao = 0; // Inicializa a comissão como 0
         }
-        public Vendedor(double comissao)
+
+        public Vendedor(string nome)
         {
-            Comissao = comissao;
-        }
-        public void MostrarAtributos()
-        {
-            System.Console.WriteLine($"Comissão: {Comissao:c}");
+            Nome = nome;
+            Comissao = 0;
         }
     }
 }

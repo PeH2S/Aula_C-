@@ -7,31 +7,43 @@ namespace AgregacaoVenda
 {
     public class Produto
     {
-        public int Codigo { get; set; }
-        public string Nome { get; set; } 
-        public double Preco { get; set; }
-        
-        //Criar 3 construtores
+        private static int contador = 500;
+        private decimal preco;
+
+        public int Codigo { get; private set; }
+        public string Nome { get; set; }
+
+        public decimal Preco
+        {
+            get { return preco; }
+            set
+            {
+                if (value >= 0)
+                {
+                    preco = value;
+                }
+            }
+        }
+
         public Produto()
         {
+            Nome = string.Empty;
+            Preco = 0; // Inicializa com preço 0.
+        }
 
-        }
-        public Produto(int codigo, string nome, double preco)
+        public Produto(string nome, decimal preco)
         {
-            this.Codigo = codigo;
-            this.Nome = nome;
-            this.Preco = preco;
-        }
-        public Produto(int codigo, string nome)
-        {
-            Codigo = codigo;
+            Codigo = contador++;
             Nome = nome;
-            Preco = 0.0; // Valor padrão para o preço
-        }
-        //Criar Metodo MostrarAtributos()
-        public void MostrarAtributos()
-        {
-            System.Console.WriteLine($"Código: {Codigo} \tNome: {Nome} \tPreço: {Preco:c}");
+
+            if (preco >= 0)
+            {
+                Preco = preco;
+            }
+            else
+            {
+                Preco = 0; // Se o preço for negativo, inicializa como 0.
+            }
         }
     }
 }
