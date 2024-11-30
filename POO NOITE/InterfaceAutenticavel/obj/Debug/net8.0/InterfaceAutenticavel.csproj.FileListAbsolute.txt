@@ -1,0 +1,14 @@
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\bin\Debug\net8.0\InterfaceAutenticavel.exe
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\bin\Debug\net8.0\InterfaceAutenticavel.deps.json
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\bin\Debug\net8.0\InterfaceAutenticavel.runtimeconfig.json
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\bin\Debug\net8.0\InterfaceAutenticavel.dll
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\bin\Debug\net8.0\InterfaceAutenticavel.pdb
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\obj\Debug\net8.0\InterfaceAutenticavel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\obj\Debug\net8.0\InterfaceAutenticavel.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\obj\Debug\net8.0\InterfaceAutenticavel.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\obj\Debug\net8.0\InterfaceAutenticavel.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\obj\Debug\net8.0\InterfaceAutenticavel.dll
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\obj\Debug\net8.0\refint\InterfaceAutenticavel.dll
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\obj\Debug\net8.0\InterfaceAutenticavel.pdb
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\obj\Debug\net8.0\InterfaceAutenticavel.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive - Fatec Centro Paula Souza\Desktop\ADS\PROGRAMAÇÃO ORIENTADA A OBJETOS\POO NOITE\InterfaceAutenticavel\obj\Debug\net8.0\ref\InterfaceAutenticavel.dll

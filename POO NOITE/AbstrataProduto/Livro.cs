@@ -20,9 +20,9 @@ namespace AbstrataProduto
             base.MostrarAtributos();
             System.Console.WriteLine($"Autor: {Autor} \tISBN: {Isbn}");
         }
-        public override void AtualizarPreco(double preco)
+        public override void AtualizarPreco(double valor)
         {
-            this.Preco = preco;
+            this.Preco = valor;
         }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("REVISAO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb1813668fbfd7dc6b3aa5c2a79b3cc72d5c0d69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f5a63310ea345d95fb3e1d39a6808725e40fac3")]
 [assembly: System.Reflection.AssemblyProductAttribute("REVISAO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("REVISAO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

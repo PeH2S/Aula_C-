@@ -10,7 +10,7 @@ namespace AbstrataProduto
         public string Artista { get; set; }   
         public string Gravadora { get; set; }
 
-        public Livro(int codigo, double preco, string autor, long isbn) : base(codigo, preco)
+        public Disco(int codigo, double preco, string artista, string gravadora) : base(codigo, preco)
         {
             Artista = artista;
             Gravadora = gravadora;
@@ -18,11 +18,11 @@ namespace AbstrataProduto
         public override void MostrarAtributos()
         {
             base.MostrarAtributos();
-            System.Console.WriteLine($"Autor: {Autor} \tISBN: {Isbn}");
+            System.Console.WriteLine($"Artista: {Artista} \tGravadora: {Gravadora}");
         }
-        public override void AtualizarPreco(double preco)
+        public override void AtualizarPreco(double valor)
         {
-            this.Preco = preco;
+            this.Preco = valor;
         }
     }
 }
